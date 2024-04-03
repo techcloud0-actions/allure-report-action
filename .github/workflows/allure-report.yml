@@ -34,7 +34,7 @@ jobs:
           keep_reports: 20
 
       - name: Deploy report to Github Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: techcloud0-actions/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
